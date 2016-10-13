@@ -1,0 +1,7 @@
+﻿  AlgorithmBase.cpp
+c:\users\florian\desktop\projects\c++\reversixt\reversixt\algorithmbase.cpp(148): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+c:\users\florian\desktop\projects\c++\reversixt\reversixt\algorithmbase.cpp(299): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+AlgorithmBase.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  ReversiXT.vcxproj -> C:\Users\Florian\Desktop\Projects\C++\ReversiXT\Debug\ReversiXT.exe
+  ReversiXT.vcxproj -> C:\Users\Florian\Desktop\Projects\C++\ReversiXT\Debug\ReversiXT.pdb (Full PDB)

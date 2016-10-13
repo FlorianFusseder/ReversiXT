@@ -1,0 +1,5 @@
+Turns.ccp -> getfelds getplayers druch referenzen ersetzen.
+Turns.ccp -> überprüfung von jedem feld auf eine transition druch prüfen auf "-" ersetzen
+Turns.ccp -> Überlegen ob möglichkeit für aktuellhalten der vectoren possiblestartpostion allowedoverwrite usw existiert
+execTurn.ccp -> newStartTurn kann aktuellgehlaten werden statt eifnach zu clearen! pls ersetzen.
+  --hmm there are problems...!

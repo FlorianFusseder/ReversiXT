@@ -1,0 +1,55 @@
+\titlespacing{\section}{0pt}{12pt plus 4pt minus 2pt}{-6pt plus 2pt minus 2pt}
+
+% Kopf- und Fusszeile
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\leftmark}{\rightmark}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{\thesection\space\contentsname}
+\lfoot{Implementierung von Brettspielen am Beispiel ReversiXT -- SS 2015}
+\cfoot{}
+\rfoot{\ \linebreak Seite \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Vorspann
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\theHsection}{\Roman{section}}
+\pagenumbering{Roman}
+
+\newcommand{\folgen}[1]{
+\ensuremath
+#1
+}
+
+\newcommand{\MyTitlepage}[5][\empty]{
+\thispagestyle{empty}
+\begin{center}
+	\includegraphics[scale=1]{pics/oth-logo.png}\\
+	\vspace*{2cm}
+	\Large
+	\textbf{Fakultät}\\
+	\textbf{Informatik und Mathematik}\\
+	\vspace*{2cm}
+	\Huge
+	\textbf{Projektbericht}\\
+	\vspace*{0.5cm}
+	\large
+	zum Wahlpflichtfach\\
+	\vspace*{1cm}
+	\textbf{Implementierung von Brettspielen am Beispiel ReversiXT}\\
+	\vspace*{1cm}
+	\includegraphics[height=6cm]{#1}
+	\vfill
+	\normalsize
+	%\newcolumntype{x}[1]{>{\raggedleft\arraybackslash\hspace{0pt}}p{#1}}
+	\begin{tabular}{rl}%{6cm}p{7.5cm}}
+	    \rule{0mm}{5ex}\textbf{Gruppe:} & #2 \\
+		\rule{0mm}{5ex}\textbf{Autor:} & \hspace*{-0.5em}\begin{tabular}[t]{l}#3\end{tabular} \\ 
+		\rule{0mm}{5ex}\textbf{Leiter:} & Prof. Dr. rer. nat. Carsten Kern \\ 
+		\rule{0mm}{5ex}\textbf{Abgabedatum:} & #4 \\ 
+	\end{tabular} 
+\end{center}
+\pagebreak
+}
